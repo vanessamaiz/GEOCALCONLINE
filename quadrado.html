@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/formaStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icones/icons8-geometria-64.png" type="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/script.js"></script>
+    <title>Quadrado</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>GEO<span>CALC</span>ONLINE</h1>
+    
+        <nav>
+            <ul class="menu">
+                <li class="botaoNav"><a href="index.html">Início</a></li>
+                <li class="botaoNavv"><a href="index.html#shapes">Formas</a></li>
+                <li class="botaoNav"><a href="#footer_content">Contato</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <div class="caixa">
+        <h3>Calculadora da Área do Quadrado</h3>
+        <div class="imagem">
+            <img src="images/quadrado.jpg" alt="">
+        </div>
+
+        <div class="formula">
+            <p>Para calcular a Área do Quadrado utilize essa formula: A = L² </p>
+            <label for="lado">Lado:</label>
+            <input type="number" id="lado">
+            <button onclick="calculoQuadrado()">Calcular Área</button>
+            <p id="resultado"></p>
+        </div>
+        <script src="js/script.js"></script>
+    </div>
+
+    <footer>
+        <div id="footer_content">
+        <div id="footer_contacts">
+            <h1>GEO<span>CALC</span>ONLINE</h1>
+            <p>Plataforma focada em proporcionar o aprendizado de forma interativa e simples.</p>
+
+            <div id="footer_social_media">
+                <a href="https://github.com/vanessamaiz" class="footer-link" id="github">
+                     <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/vanessa-maiz-206a12205/" class="footer-link" id="linkedin">
+                     <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                </a>
+            </div>
+        </div>
+         
+        <ul class="footer-list">
+            <li>
+                <h3>Navegação</h3>
+            </li>
+            <li>
+                <a href="index.html" class="footer-link">Início</a>
+            </li>
+            <li>
+                <a href="index.html#shapes" class="footer-link">Formas</a>
+            </li>
+            <li>
+                <a href="#footer_content" class="footer-link">Contato</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Contato</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">geocalconline@contato.com</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">(11) 987043958</a>
+            </li>
+        </ul>
+
+            <div id="footer_subscribe">
+                <h3>Fale conosco:</h3>
+
+                <p>Digite o seu e-mail para mantermos contato!</p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+             &copy; GEOCALCONLINE 2023 - Todos os direitos reservados.
+        </div>
+     </footer>
+
+</body>
+</html>
